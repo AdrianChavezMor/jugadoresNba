@@ -1,0 +1,30 @@
+BACKLOG NBA DIRECTORIO:
+
+- Separate logic from UI
+- Create and appState
+- Create a git repository
+- Hostear la página.
+
+NO MAS TASKS
+
+
+
+DONE:
+
+- Funcion que cargue los componentes de html como el season dropdown
+y el team dropdown. PREGUNTAS: Es asi como se hace realmente, asi seria en un ambiente profesional?
+- Cambiar las opciones de equipo dependiendo de la temporada. PREGUNTAS: Un edge case es que al principio aparecen todos los equips,
+hasta que cambie de temporada empezaran a aparecer los equipos correctos.
+- Agregar boton de busqueda PREGUNTAS: Ya que cuando se cambia la season tambien cambia la opcion del team, asegurar que cuando se cambie la season tambien se 
+cambie el team que est'e seleccionado
+- Hacer que al despues de escoger una temporada tambien se seleccione el equipo: Small bug si lo pruebas viendo la consola
+- Hacer que los botones de right and left_right aparezcan despues de picarle a find por primera vez
+- Agregar estilos PREGUNTAS: Aprender mas sobre css
+- Ordenar equipos para que aparezcan en orden alfabetico
+
+NO MAS TASKS
+
+IDEAS:
+Replicar funcionalidad de shorts en Youtube
+Hacer un proyecto con node
+Crear una API

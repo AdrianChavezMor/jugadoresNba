@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA PLAYERS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h2>NBA DIRECTORY</h1>
+    <h5>Choose a season and a team:</h5>
+    <div id="inputs-full-container">
+    </div>
+
+    <div id="players-full-container" style="display: none; justify-content: center; align-items: center; flex-direction: column">
+        <div id="player-info">
+          <p id="name"></p>
+          <p id="team"></p>
+          <p id="age"></p>
+          <p id="height"></p>
+          <p id="weight"></p>
+          <p id="points"></p>
+          <p id="rebounds"></p>
+          <p id="assists"></p>
+          <button  id="right" onclick=goToNextPlayer()>right</button>
+          <button  id="left" onclick=goToPreviousPlayer()>left</button>
+        </div>
+        
+        
+    </div>
+   
+</body>
+</html>
